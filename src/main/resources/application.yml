@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: bankline-api
-server:
-  port: 8080
-
+  profiles:
+    active:
+      prod

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: bankline-api
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bankline_db
+    username: postgres
+    password: 123
